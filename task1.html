@@ -1,129 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>零基础html编码</title>
-<meta charset="utf-8"> 
-<style type="text/css">
-*{
-	margin:0;padding:0;
-}
-table td {border: 1px solid #999; border-collapse:collapse;}
-table tr {border: 1px solid #999; border-collapse:collapse;}
-body{
-	background: #999;
-}
-.title li{
-	float: left;
-	margin-right: 30px;
-    
-}
-.title li a {
-	text-decoration: none;
-	color: white;
-}
-.title{
-	background: #666;
-	margin:0; 
-	width:100%;
-	height:50px;
-}
-h1{display: inline-block;}
-h3{color:gray;
-	margin-top: 10px;
-
-}
-
-.daohang{
-	float:right;
-	margin-top:10px;
-}
-.article{
-	background: white;
-	margin-right: 20px;
-	margin-top:20px;
-	box-sizing: border-box;
-	padding: 30px 10px;
-}
-.para{
-	text-indent: 2em;
-	margin-top: 10px;
-	line-height: 30px;
-}
-.at{
-	margin-top:10px;
-	color:gray;
-	font-size: 13px;
-}
-.article2ul{
-	list-style: none;
-	text-indent: 30px;
-	line-height: 30px;
-}
-.img{
-	
-	border: 1px solid #666;
-    width: 130px;
-    height:130px;
-    text-align: center;
-    padding-top: 10px;
-    margin:10px;
-
-}
-img{
-	width: 100px;
-	height: 70px;
-    margin:10px 15px;
-}
-ol{
-	margin:20px 50px;
-}
-table{
-	width:100%;
-	font-size: 15px;
-}
-th{
-	text-align: left;
-	color: white;
-	background:#333;
-	font-size: 20px;
-}
-td{
-	height: 30px;
-	text-align: left;
-}
-.lasttr{
-	font-weight: bold;
-	background: #999;
-
-}
-.celan{
-	background: white;
-	margin-right: 40px;
-	margin-top:40px;
-	box-sizing: border-box;
-	padding: 30px 10px;
-	
-}
-.cltable td{
-	border: 0px solid #999;
-	text-align:right;
-}
-#submit {
-    width: 100%;
-    height: 40px;
-   
-}
-footer{
-	display: block;
-	background: black;
-	color:white;
-	padding-top: 20px;
-	text-align:center;
-	margin-top: 20px;
-	height: 50px;
-	width: 100%;
-}
-</style>
+<meta charset="utf-8">
+<title>零基础html编码</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
@@ -234,7 +114,8 @@ footer{
 		</td>
 	</tr>
 	<tr>
-		<td>邮箱地址请按要求格式输入</td>
+		<td></td>
+		<td class="requirement">邮箱地址请按要求格式输入</td>
 	</tr>
 	<tr>
 		<td>
@@ -253,7 +134,8 @@ footer{
 		</td>
 	</tr>
 	<tr>
-		<td>密码请为6-16位英文数字</td>
+	    <td></td>
+		<td class="requirement">密码请为6-16位英文数字</td>
 	</tr>
 	<tr>
 		<td>性别</td>
@@ -278,7 +160,7 @@ footer{
 	</tr>
 	<tr>
 		<td>个人描述</td>
-		<td><textarea cols="10" rows="2" name="description" placeholder="这是一个多行输入框，输入您的个人描述" style="text" value="n"></textarea></td>
+		<td><textarea  cols="100" rows="5" name="description"  style="text" value="n">这是一个多行输入框，输入您的个人描述</textarea></td>
 	</tr>
 	<tr>
 		<td colspan="2"><input type="submit" value="确认提交" id="submit"></input></td>
@@ -286,6 +168,6 @@ footer{
 </table>
 
 </aside>
-<footer>版权所有©</footer>
+<footer>版权所有&copy</footer>
 </body>
 </html>
