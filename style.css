@@ -5,7 +5,7 @@
 table td {border: 1px solid #999; border-collapse:collapse;}
 table tr {border: 1px solid #999; border-collapse:collapse;}
 body{
-	background: #999;
+	background: silver;
 }
 .title li{
 	float: left;
@@ -38,6 +38,9 @@ h3{color:gray;
 	margin-top:20px;
 	box-sizing: border-box;
 	padding: 30px 10px;
+	border-color: #c0c0c0;
+	border-right-style: outset;
+	border-bottom-style: outset;
 }
 .para{
 	text-indent: 2em;
@@ -137,4 +140,9 @@ aside> table tr td:first-child {
 aside> table textarea {
     width: 50%;
     height: 60px;
+}
+aside h2{
+	border-left:3px solid black;
+	padding-left: 10px;
+	margin-left: 10px;
 }
